@@ -23,7 +23,7 @@ class Magneto inherits Aparato {
 		return true
 	}
 
-	override method efectoUsado(paciente) {
+	override method usado(paciente) {
 		paciente.curarDolor(paciente.dolor() * 0.1)
 	}
 
